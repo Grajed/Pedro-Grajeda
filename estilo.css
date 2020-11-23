@@ -1,0 +1,35 @@
+/*Propriedades de Todos*/
+
+* {
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+
+/*Alinhando todo o texto no meio*/
+
+.apresentação * {
+    text-align: center;
+}
+
+
+/*textos de "interesses"*/
+
+.interesses {
+    padding-top: 1%;
+}
+
+div#melhorarweb {
+    text-align: left;
+    font-size: 150%;
+}
+
+div#estudoIA {
+    text-align: right;
+    font-size: 150%;
+}
+
+div#gamedev {
+    text-align: left;
+    font-size: 150%;
+}
