@@ -1,9 +1,29 @@
-/*Propriedades de Todos*/
+/*importando coisas*/
 
-* {
-    padding-left: 0.5%;
-    padding-right: 0.5%;
+
+/*font-family Sofia*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+/*font-family Nerko One - Fonte dos títulos*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+/*font-family indie flower*/
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nerko+One&display=swap');
+
+/*Backgrounds*/
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+body {
+    margin: 0;
 }
+
+
+/*apresentação/introdução sobre mim*/
 
 
 /*Alinhando todo o texto no meio*/
@@ -12,8 +32,113 @@
     text-align: center;
 }
 
+.apresentação {
+    width: 100%;
+    height: 100%;
+}
 
-/*textos de "interesses"*/
+
+/*Avatar*/
+
+.avatar img {
+    width: 30%;
+    height: 30%;
+}
+
+
+/*"Oi, eu sou o pedro"*/
+
+.apresentação h1 {
+    font-family: sofia;
+    font-size: 400%;
+    color: goldenrod;
+    margin: 0;
+    padding-top: 5%;
+}
+
+
+/*"Um programador"*/
+
+.apresentação h2 {
+    font-family: Nerko One;
+    font-size: 200%;
+    padding-top: 5%;
+    color: goldenrod;
+}
+
+
+/*Tenho 20 anos...*/
+
+.apresentação p {
+    text-align: center;
+    font-family: indie flower;
+    font-size: 150%;
+    padding-top: 0%;
+    padding-bottom: 8%;
+    color: goldenrod;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+div#caixa1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(87, 11, 207);
+    background-size: 100%;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+/*Aprendi a mexer no photosho...*/
+
+.resumoilustrador {
+    text-align: left;
+    font-family: indie flower;
+    font-size: 150%;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+/*Comecei a programar...*/
+
+.resumoprogramação {
+    text-align: right;
+    font-family: indie flower;
+    font-size: 150%;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+/*Desde a infância...*/
+
+.sobremim {
+    text-align: left;
+    font-family: indie flower;
+    font-size: 150%;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+/*Parte de Minhas Habilidades de programação
+
+div#habilidadesProg li {
+    list-style: none;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+/*textos de "interesses"
 
 .interesses {
     padding-top: 1%;
@@ -32,4 +157,4 @@ div#estudoIA {
 div#gamedev {
     text-align: left;
     font-size: 150%;
-}
+}*/
