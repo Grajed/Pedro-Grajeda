@@ -1,0 +1,137 @@
+/*importando coisas*/
+
+
+/*font-family Sofia*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+/*font-family Nerko One - Fonte dos títulos*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+/*font-family indie flower*/
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nerko+One&display=swap');
+
+/*Backgrounds*/
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/*para a tela do meu pc*/
+
+@media only screen and (max-width: 1980px) {
+    /*apresentação/introdução sobre mim*/
+    /*Alinhando todo o texto no meio*/
+    .apresentação * {
+        text-align: center;
+    }
+    .apresentação {
+        width: 100%;
+        height: 100%;
+    }
+    /*Avatar*/
+    .avatar img {
+        width: 30%;
+        height: 30%;
+    }
+    /*"Oi, eu sou o pedro"*/
+    .apresentação h1 {
+        font-family: sofia;
+        font-size: 400%;
+        color: rgb(184, 120, 37);
+        margin: 0;
+        padding-top: 5%;
+    }
+    /*"Um programador"*/
+    .apresentação h2 {
+        font-family: Nerko One;
+        font-size: 200%;
+        padding-top: 5%;
+        color: rgb(184, 120, 37);
+    }
+    /*Tenho 20 anos...*/
+    .apresentação p {
+        text-align: center;
+        font-family: indie flower;
+        font-size: 200%;
+        padding-top: 0%;
+        padding-bottom: 8%;
+        color: rgb(184, 120, 37);
+        margin: auto;
+        width: 40%;
+    }
+    /*-----------------------------------------------------------------------------------------*/
+    /*Fundo do top do site*/
+    div#caixa1 {
+        width: 100%;
+        height: 100%;
+        background-color: #0bb9d9;
+        background-size: 100%;
+    }
+    /*-----------------------------------------------------------------------------------------*/
+    /*Aprendi a mexer no photoshop...*/
+    .resumoilustrador {
+        text-align: left;
+        font-family: indie flower;
+        font-size: 150%;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 40%;
+    }
+    /*Imagem*/
+    .resumoilustrador img {
+        width: 25%;
+        position: absolute;
+        left: 60%;
+        top: 140%;
+    }
+    /*-----------------------------------------------------------------------------------------*/
+    /*Comecei a programar...*/
+    .resumoprogramação {
+        text-align: right;
+        font-family: indie flower;
+        font-size: 150%;
+        padding-right: 0%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 40%;
+        position: relative;
+        left: 55%;
+    }
+    .resumoprogramação img {
+        width: 65%;
+        position: absolute;
+        right: 135%;
+        top: 0%;
+    }
+    /*-----------------------------------------------------------------------------------------*/
+    /*Desde a infância...*/
+    .sobremim {
+        text-align: left;
+        font-family: indie flower;
+        font-size: 150%;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 40%;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+/*Responsividade*/
+
+@media only screen and (max-width: 1080px) {}
