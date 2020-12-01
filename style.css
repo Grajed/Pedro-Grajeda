@@ -24,6 +24,8 @@
 
 body {
     margin: 0;
+    /*Cyberpunk*/
+    background-color: rgb(70, 70, 70);
 }
 
 
@@ -48,7 +50,7 @@ body {
     .apresentação h1 {
         font-family: sofia;
         font-size: 400%;
-        color: rgb(184, 120, 37);
+        color: rgb(248, 170, 0);
         margin: 0;
         padding-top: 5%;
     }
@@ -57,7 +59,7 @@ body {
         font-family: Nerko One;
         font-size: 200%;
         padding-top: 5%;
-        color: rgb(184, 120, 37);
+        color: rgb(248, 170, 0);
     }
     /*Tenho 20 anos...*/
     .apresentação p {
@@ -75,8 +77,10 @@ body {
     div#caixa1 {
         width: 100%;
         height: 100%;
+        background-color: rgb(31, 31, 31);
+        /* imagem baseada no por do sol
         background-image: url(sunset.png);
-        background-size: 100%;
+        background-size: 100%;*/
     }
     /*-----------------------------------------------------------------------------------------*/
     /*Aprendi a mexer no photoshop...*/
@@ -84,10 +88,12 @@ body {
         text-align: left;
         font-family: indie flower;
         font-size: 150%;
+        color: blanchedalmond;
         padding-top: 5%;
         padding-bottom: 5%;
         width: 60%;
         margin: auto;
+        /*Cyberpunk style*/
     }
     /*Imagem*/
     .resumoilustrador img {
@@ -100,6 +106,7 @@ body {
         text-align: right;
         font-family: indie flower;
         font-size: 150%;
+        color: blanchedalmond;
         padding-top: 5%;
         padding-bottom: 5%;
         width: 60%;
@@ -115,6 +122,7 @@ body {
         text-align: left;
         font-family: indie flower;
         font-size: 150%;
+        color: blanchedalmond;
         padding-top: 5%;
         padding-bottom: 5%;
         width: 60%;
