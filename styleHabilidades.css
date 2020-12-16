@@ -1,0 +1,70 @@
+/*importando coisas*/
+
+
+/*font-family Sofia*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+/*font-family Nerko One - Fonte dos títulos*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+/*font-family indie flower*/
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nerko+One&display=swap');
+
+/*font-family Poppins*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*Gerais*/
+
+body {
+    margin: 0;
+    background-color: rgb(31, 31, 31);
+}
+
+
+/*para a tela do meu pc*/
+
+@media only screen and (max-width: 1920px) {
+    h1 {
+        text-align: center;
+        font-family: sofia;
+        font-size: 400%;
+        color: rgb(248, 170, 0);
+        margin: 0;
+        padding-top: 5%;
+    }
+    .skills {
+        margin: auto;
+        padding-left: 17%;
+    }
+    .skills h2 {
+        font-family: nerko one;
+        font-size: 250%;
+        color: greenyellow;
+    }
+    .skills li {
+        font-family: poppins;
+        color: rgb(255, 255, 255);
+        list-style: none;
+        font-size: 150%;
+    }
+    .skills a {
+        text-decoration: none;
+    }
+    .skills img {
+        float: right;
+        width: 25%;
+    }
+    #skillProgramação li {
+        width: 15%;
+        line-height: 300%;
+    }
+}
+
+
+/*telas de celulares grandes*/
+
+@media only screen and (max-width: 1080px) {}

@@ -3,26 +3,45 @@
 <meta rel="viewport" content="width = device-width, initial-scale = 1">
 <link rel="stylesheet" href="style.css">
 
+
+
 <head>
     <title>Pedro Grajeda</title>
 </head>
-<style>
-
-</style>
 
 <body>
+    <script src="script.js"></script>
+
+    <!--Botão para abrir o side menu
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+    <a href="javascript:void(0)" class="closeMenuBtn" onclick="closeNav()">&times</a>
+    <a href="#">Habilidades</a><br>
+    <a href="#">Trabalhos photoshop</a><br>
+    <a href="#">Trabalhos web</a><br>-->
 
     <!--Aqui vai elementos decorativos do site. imagens e etc-->
     <div></div>
 
     <div id="caixa1">
         <div class="apresentação">
+
+            <!--Side Menu para mais páginas-->
+            <div class="sidemenu">
+                <ul>
+                    <li><button class="menuButton"><a href="Habilidades.html">Habilidades</a></button>
+                    </li>
+                    <li><button class="menuButton"><a  href="#" >Trabalhos web</a></button>
+                    </li>
+                </ul>
+            </div>
+
             <h1>Oi, eu sou o Pedro</h1>
 
             <!--Breve texto falando sobre o site-->
             <h2>Um programador</h2>
             <div class="logocity">
-                <img src="logo cidade.png">
+                <img src="Logo cyberpunk bem trabalhado.png">
             </div>
         </div>
     </div>
@@ -36,6 +55,9 @@
         <p id="quemsou">Tenho 20 anos. Sou programador e ilustrador. Mexo também com edição de vídeos, e amo Jogos.
         </p>
     </div>
+
+    <hr>
+
     <div class="textoesquerda">
         <img src="Logo mesa digital.png">
         <p>Aprendi a mexer no Photoshop em 2016, ainda no ensino médio, mas só em 2020 resolvi aprender mais, estudar e usar esta habilidade mais profissionalmente.
@@ -55,21 +77,25 @@
         </p>
     </div>
 
+    <hr>
+
     <!--Area de contato como um todo-->
     <div class="caixacontato">
-        <!--Formulário para contato-->
-
-        <p>Se você também gosta de programar, jogar, desenhar, sair, entrar em contato para algum trabalho, ou só trocar uma ideia, pode entrar em contato!</p>
-        <form action="mailto:contato.pedro.grajeda@gmail.com" method="POST">
-            <label>Seu Nome:</label>
-            <input type="text" name="Nome" value=""><br>
-            <label>Seu Email:</label>
-            <input type="email" name="Email"><br>
-            <label>Sua Mensagem:</label><br>
-            <textarea rows="10" cols="30"></textarea>
-            <input type="submit">
-        </form>
+        <h2>Fala comigo!</h2>
+        <h3>se gosta de jogar e programar tanto quanto eu.</h3>
+        <p>Se gosta de jogar, programar, ou trocar ideia, me chame!</p>
+        <a id="cttbutton" href="Contato.html">Contato</a>
     </div>
+
+
+    <div class="linksredessociais">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+
+        <p>&copy; 2020 Pedro Grajeda</p>
+    </div>
+
 
 
 </body>
