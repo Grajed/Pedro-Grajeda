@@ -228,6 +228,9 @@ hr {
         background-color: rgb(53, 53, 53);
         transition: 0.25s;
     }
+    .menuMobile {
+        display: none;
+    }
 }
 
 
@@ -313,10 +316,17 @@ hr {
     }
     /*------------------------------------*/
     .sidemenu {
-        position: absolute;
+        display: none;
     }
-    .sidemenu li {
-        display: inline-block;
+    /*------------------------------------*/
+    .menuMobile {
+        display: initial;
+    }
+    .menuMobile button {
+        display: inline;
+        width: 100%;
+        height: 300%;
+        font-size: 300%;
     }
 }
 

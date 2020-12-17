@@ -42,6 +42,11 @@ body {
     .falacmg img {
         width: 35%;
     }
+    /*email de contato*/
+    #email {
+        font-family: poppins;
+        color: mediumaquamarine;
+    }
     /*linha de separação*/
     hr {
         border: dotted;
@@ -81,9 +86,89 @@ body {
     #botaoEnviar:hover {
         background-color: rgb(73, 73, 73);
     }
+    .sidemenu {
+        border-radius: 5px;
+        width: 15%;
+        margin: auto;
+        position: fixed;
+        top: 9%;
+    }
+    .sidemenu ul {
+        text-align: left;
+        list-style-type: none;
+        padding-left: 0;
+        margin: auto;
+    }
+    .menuButton {
+        background-color: rgb(38, 38, 38);
+        line-height: 200%;
+        width: 100%;
+        font-size: 120%;
+        border-radius: 5px;
+        border: 0;
+        font-family: poppins;
+        color: rgb(134, 24, 185);
+        text-decoration: none;
+    }
+    .menuButton a {
+        text-decoration: none;
+        color: rgb(134, 24, 185);
+    }
+    .menuButton:hover {
+        background-color: rgb(53, 53, 53);
+        transition: 0.25s;
+    }
+    .menuMobile {
+        display: none;
+    }
 }
 
 
 /*telas de celulares grandes*/
 
-@media only screen and (max-width: 1080px) {}
+@media only screen and (max-width: 1080px) {
+    .falacmg {
+        width: 100%;
+    }
+    .falacmg h1 {
+        font-size: 500%;
+    }
+    .falacmg img {
+        width: 70%;
+    }
+    .hr {
+        width: 50%;
+    }
+    #email {
+        font-size: 250%;
+    }
+    form {
+        font-size: 300%;
+    }
+    input {
+        width: 50%;
+        height: 2.5%;
+    }
+    textarea {
+        width: 80%;
+    }
+    #botaoEnviar {
+        width: 50%;
+        padding-top: 0%;
+    }
+    .menuButton {
+        height: 1%;
+    }
+    .sidemenu {
+        display: none;
+    }
+    .menuMobile {
+        display: initial;
+    }
+    .menuMobile button {
+        display: inline;
+        width: 100%;
+        height: 5%;
+        font-size: 300%;
+    }
+}

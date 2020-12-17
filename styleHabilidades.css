@@ -67,4 +67,29 @@ body {
 
 /*telas de celulares grandes*/
 
-@media only screen and (max-width: 1080px) {}
+@media only screen and (max-width: 1080px) {
+    .skills {
+        margin: auto;
+        padding: 0;
+        text-align: center;
+    }
+    h1 {
+        font-size: 680%;
+    }
+    .skills h2 {
+        font-size: 600%;
+    }
+    .skills li {
+        font-size: 400%;
+        text-align: center;
+    }
+    #skillProgramação li {
+        width: 100%;
+        text-align: center;
+        font-size: 400%;
+    }
+    .skills img {
+        width: 10%;
+        float: initial;
+    }
+}
